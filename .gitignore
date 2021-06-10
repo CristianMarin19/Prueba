@@ -14,6 +14,7 @@ yarn.lock
 .phpunit.result.cache
 .php_cs.cache
 .idea
+/.idea
 sftp-config.json
 
 #Ignore /public but not...
@@ -39,6 +40,7 @@ sftp-config.json
 #Modules but not Modules Icustom
 /Modules/*
 !Modules/Icustom
+!Modules/Icredit
 
 #node_modules in every folder
 node_modules
